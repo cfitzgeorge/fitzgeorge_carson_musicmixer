@@ -1,0 +1,11 @@
+lots of bugs in this checkpoint
+
+- can't seem to get the dropzones working correctly
+- the mixer board could be moved up a bit
+- at some point i'll need to add some placeholder audio so i know the drop functions work properly
+
+what went right!
+
+- added proper icons for the "beat blocks" 
+- got a better font in for the webpage 
+- adjusted the site measurements a bit 
