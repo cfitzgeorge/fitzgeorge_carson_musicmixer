@@ -3,24 +3,59 @@
 }
 
 html {
-    background-color: black
+    background-color: black;
 }
 
 #title {
-    display: center;
-    margin-top: 40px;
-    padding-top: 40px;
-    overflow: hidden;
-    border-bottom: solid 1px #ddd;
+	position: relative;
+	top: 20px;
+	width:600px;
+	margin: 0px auto;
+	text-align: center;
     color: cyan;
-    text-align: center;
-    font-size: 48px;
+    font-size: 3.5em;
+    font-family: Oswald, sans-serif;
 }
 
-#nav, p {
-    display: grid;
-    justify-content: center;
+header {
+	position: relative;
+	top: 20px;
+	width:600px;
+	margin: 0px auto;
+	text-align: center;
+    font-family: Oswald, sans-serif;
+}
+
+header h1 {
+	font-size: 2.25em;
+    letter-spacing: 3px;
+	margin: 10px 0;
     color: magenta;
-    font-size: 24px;
-    padding-top: 40px;
+    font-family: Oswald, sans-serif;
+}
+
+.beat-block {
+	padding: 10px;
+	cursor: pointer;
+    margin-right: 20px;
+}
+
+.beat-blocks {
+    display: inline;
+    width: 20%;
+    margin-top: 150px;
+    margin-left: 350px;
+	height: 450px;
+	color: inherit;
+	overflow: hidden;
+}
+
+.beat-blocks, .mix-board {
+    display: inline-block;
+}
+
+.mix-board {
+    width:600px; 
+    height: 450px;
+    background-color: rgb(32, 32, 32);
 }
